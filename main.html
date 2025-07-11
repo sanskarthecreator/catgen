@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="aurora-bg">
+        <div class="aurora-1"></div>
+        <div class="aurora-2"></div>
+        <div class="aurora-3"></div>
+    </div>
+    
+    <div class="app">
+        <div class="header">
+            <div class="logo">
+                <div class="cat-icon">🐱</div>
+                <h1>whiskers</h1>
+            </div>
+            <p class="tagline">discover adorable cats</p>
+        </div>
+        
+        <div class="main-content">
+            <div class="image-container" id="imageContainer">
+                <div class="image-frame">
+                    <div class="placeholder" id="placeholder">
+                        <div class="paw-prints">
+                            <div class="paw">🐾</div>
+                            <div class="paw">🐾</div>
+                            <div class="paw">🐾</div>
+                        </div>
+                        <p>click to meet a new friend</p>
+                    </div>
+                    <div class="loading-overlay" id="loadingOverlay">
+                        <div class="cat-loader">
+                            <div class="cat-body">
+                                <div class="cat-head">
+                                    <div class="cat-ears">
+                                        <div class="ear"></div>
+                                        <div class="ear"></div>
+                                    </div>
+                                    <div class="cat-face">
+                                        <div class="eyes">
+                                            <div class="eye"></div>
+                                            <div class="eye"></div>
+                                        </div>
+                                        <div class="nose"></div>
+                                    </div>
+                                </div>
+                                <div class="cat-tail"></div>
+                            </div>
+                        </div>
+                        <p>finding the perfect cat...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button class="generate-btn" id="generateBtn">
+                    <span class="btn-text">generate</span>
+                    <div class="btn-particles">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                </button>
+                
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="stats" id="stats">
+                <span>cats discovered: <span id="catCount">0</span></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
